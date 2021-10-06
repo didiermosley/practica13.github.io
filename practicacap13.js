@@ -26,3 +26,5 @@ const funcion = async()=>{
 }
 
 document.querySelector(".btn").addEventListener("click", funcion);
+
+console.log("Prueba");

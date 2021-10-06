@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.align-horizontal{
+    display:flex;
+    justify-content:center;
+    margin: 10px;
+}
+
+.titulo{
+    margin-right: 5px;
+}
+
+.btn{
+    font-size:20px;
+    background:rgb(0, 163, 87);
+    border: none;
+    border-radius:15px;
+    padding: 7px;
+    transition-property: background, color;
+    transition-duration:.3s;
+}
+
+.btn:hover{
+    background:rgb(28, 155, 102);
+    color:aliceblue;
+    cursor:pointer;
+}
+
+.container{
+    width:50%;
+    border-radius:10px;
+    padding:5px;
+    background: rgb(248, 255, 250);
+    margin:50px auto;
+    box-shadow: 0 10px 20px 0 rgb(218, 218, 218);
+    text-align:center;
+}
+
+.container::selection{
+    /* Para cambiar las propiedades del texto al sombrearlo */
+    color:#fff;
+    background: rgb(1, 146, 74);
+}
+
+.error{
+    color:red;
+}

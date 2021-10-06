@@ -4,7 +4,7 @@ const funcion = async()=>{
     div.classList.add("container");
     document.body.appendChild(div);
     try {
-        let data = await fetch("info.txt");
+        let data = await fetch("infoo.txt");
         let info = await data.json();
         // await no trabaja con .then, por lo tanto se usa try catch.
 
